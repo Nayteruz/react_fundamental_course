@@ -1,0 +1,44 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.pagination .item, .pagination .nav {
+  background: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border: 2px solid teal;
+  font-size: 18px;
+  color: teal;
+  cursor: pointer;
+}
+.pagination .item:hover, .pagination .nav:hover {
+  color: #fff;
+  background: teal;
+}
+.pagination .item[disabled], .pagination .nav[disabled] {
+  border-color: gray;
+  color: grey;
+  opacity: 0.5;
+  background: none;
+  pointer-events: none;
+}
+.pagination .nav {
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.pagination .current {
+  color: #fff;
+  background: teal;
+}
+
+/*# sourceMappingURL=pagination.module.css.map */

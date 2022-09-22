@@ -1,0 +1,16 @@
+.myBtn {
+  padding: 5px 15px;
+  color: teal;
+  font-size: 14px;
+  background: transparent;
+  border: 1px solid teal;
+  cursor: pointer;
+}
+.myBtn:hover {
+  box-shadow: 0 0 3px 1px #009a9a;
+}
+.myBtn:active {
+  box-shadow: inset 0 0 4px 1px #006767;
+}
+
+/*# sourceMappingURL=MyButton.module.css.map */

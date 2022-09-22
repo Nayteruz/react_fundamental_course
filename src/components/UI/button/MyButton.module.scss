@@ -1,0 +1,17 @@
+$teal:teal;
+
+.myBtn {
+    padding: 5px 15px;
+    color: $teal;
+    font-size: 14px;
+    background: transparent;
+    border:1px solid $teal;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 0 0 3px 1px lighten($teal, 5%);
+    }
+    &:active {
+        box-shadow:inset 0 0 4px 1px darken($teal, 5%);
+    }
+}
